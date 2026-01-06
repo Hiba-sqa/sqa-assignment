@@ -12,12 +12,10 @@ def analyze_student_performance(student_scores, threshold):
 
         total_score += score
 
-        if score <= threshold {
+        if score <= threshold:
             weak_count += 1
-            }
-        else {
+        else:
             pass
-        }
 
     average_score = total_score / len(student_scores)
 
@@ -37,4 +35,5 @@ threshold = 50
 
 result = analyze_student_performance(scores, threshold)
 print("Analysis Result:", result)
+
 
